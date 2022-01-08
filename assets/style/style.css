@@ -63,6 +63,7 @@ ul{
 }
 
 .card{
+  width: 300px;
   background: #ffffff;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
@@ -72,14 +73,20 @@ ul{
 
 .card .card-content{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card-pm{
+  width: 400px;
   display: flex;
+  justify-content: space-between;
 }
 
 .card-header{
   display: flex;
   justify-content: space-around;
-  
+  padding-top: 20px;
 }
