@@ -90,3 +90,11 @@ ul{
   justify-content: space-around;
   padding-top: 20px;
 }
+
+.card-pm .card-content:first-child{
+  border-right: 1px solid black;
+}
+
+.card-pm .card-content{
+  padding: 0 10px;
+}
