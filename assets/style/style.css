@@ -10,6 +10,10 @@ ul{
   cursor: pointer;
 }
 
+h2{
+  color: rgb(230, 187, 0);
+}
+
 .container{
   display: flex;
 }
